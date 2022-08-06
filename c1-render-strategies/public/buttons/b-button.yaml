@@ -1,0 +1,17 @@
+title: just a button3w
+content: 
+border: white
+background: '#343434'
+color: white
+clicks: 
+- count: 1
+  actions: 
+  - name: mod_meta
+    title: You clicked me
+    border: red
+  - name: alert
+    message: Ouch
+- count: 3
+  actions: 
+  - name: redirect
+    url: https://link.sharpi.tech/totally_normal_url
